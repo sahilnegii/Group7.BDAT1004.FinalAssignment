@@ -53,6 +53,7 @@ data_dict_info = """
 """
 
 app = dash.Dash(__name__)
+server = app.server
 
 # Here we are defining the layout for the webpage and using Dash DataTable to display
 # our stored data into a table format on the web.
