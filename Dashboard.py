@@ -9,7 +9,7 @@ from pymongo import MongoClient
 # providing the username and password to url. Here we have used parse to give ID and pass because
 # it was giving us error when we gave the arguments directy.
 username = urllib.parse.quote_plus('RajPatel')
-password = urllib.parse.quote_plus("Rp4formongodb@@4")
+password = urllib.parse.quote_plus("**************")
 
 # URL to connect to the MongoDB atlas. Here we have used the balldontlie api to fetch the
 # player's average season statistics.
